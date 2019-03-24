@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Button from '@material-ui/core/Button';
 import './App.css';
 
 class App extends Component {
@@ -15,10 +16,10 @@ class App extends Component {
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Learn React
           </a>
+          <Button variant="contained" color="primary">This is a button from Material UI</Button>
         </header>
       </div>
     );
